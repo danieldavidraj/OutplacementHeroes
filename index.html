@@ -1,0 +1,791 @@
+<html lang="en">
+	<head>
+    <!-- Basic Page Needs==================================================-->
+   <title>OutplacementHeros</title>
+	<link rel="shortcut icon" type="image/png" href="https://outplacementheros.org/HomeImages/Favicon.png">
+    <meta charset="utf-8">
+	<meta name="description" content="outplacementheros is a social platform to support laid-off job seekers for free">
+	<meta name="keywords" content="Laid off,Layoff,Job Search Assistance,Hidden Jobs,networking with employers,job search support,job search service,job recommendation service,hidden jobs service">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script async="" src="https://embed.tawk.to/5ecf69868ee2956d73a557e3/default" charset="UTF-8" crossorigin="*"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-166949554-1"></script>
+	<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-166949554-1');
+	</script>
+	<link rel="icon" type="image/png" sizes="32x32" href="https://outplacementheros.org/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://outplacementheros.org/img/favicon-16x16.png">
+    <!-- CSS==================================================-->
+    <link rel="stylesheet" href="https://outplacementheros.org/assets/plugins/css/plugins.css">
+    <link href="https://outplacementheros.org/assets/css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" id="jssDefault" href="https://outplacementheros.org/assets/css/colors/green-style.css">
+    <link type="text/css" rel="stylesheet" id="jssDefault" href="https://outplacementheros.org/assets/css/bootstrap-notify.css">
+    <style type="text/css">
+
+		* 
+        {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          border: 0px none;
+        }
+		/*Heading CSS*/
+        .con
+        {
+          margin-top: 12%;
+          margin-bottom: 1%;
+        }
+        .con1
+        {
+          margin-bottom: 4%;
+        }
+        h2
+        {
+          margin-left: 52%;
+          font-size: 25px;
+          color: white;
+          font-weight: 600;
+        }
+        .welcome-heading 
+        {
+          margin-bottom: 100px;
+        }
+        .welcome-heading > h3 
+        {
+          font-size: 300px;
+          position: absolute;
+          font-weight: 900;
+          margin-left: 12px;
+          margin-top: -30%;
+          z-index: -1;
+          color: blue;
+          opacity: 0.1;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+        } 
+		 /*Video CSS*/
+        video
+        {
+          width:100%;
+        }
+		.seeker
+		{
+			background-color:#F39C12;
+			border-radius:3vh;
+			padding:1% 2%;
+			color:white;
+			font-weight:bold;
+			font-size:1em;
+			transition:0.3s;
+			margin-top:4%;
+		}
+		.seeker:hover
+		{
+			background-color:#D68910;
+		}
+		#text-image
+		{
+			float:right;
+		}
+		@media  only screen and (max-width:800px)
+		{
+			#text-image
+			{
+				float:left;
+			}
+			#text-float
+			{
+				float:left;
+			}
+			.seeker
+			{
+				float:left;
+			}
+			#text-2
+			{
+				margin-right:0;
+			}
+		}
+		.faq
+		{
+			padding:1% 3%;
+			width:65%;
+			margin:auto;
+			display:block;
+			text-align:left;
+			border-bottom:1px #D7DBDD solid;
+			font-weight:bold;
+			background-image:url('images/dropdown.png');
+			background-repeat:no-repeat;
+			background-position:98% center;
+			background-size:20px 20px;
+		}
+		.faq-text
+		{
+			width:65%;
+			font-size:1.2em;
+			font-family: Montserrat, sans-serif;
+			margin:auto;
+			display:block;
+			padding:1% 1%;
+			border-bottom:#3498DB solid;
+		}
+		.subscribe
+		{
+			background-color:#E74C3C;
+			color:white;
+			transition:0.3s;
+		}
+		.subscribe:hover
+		{
+			color:white;
+			background-color:#CB4335;
+		}
+		.nav-link,.active
+		{
+			color:#4582c4 !important;
+		}
+		.readmore
+		{
+			background-color:#4582c4;
+			color:white;
+			padding:2% 2%;
+			border-radius:4vh;
+			transition:0.3s;
+			margin:auto;
+			display:block;
+		}
+		.readmore:hover
+		{
+			background-color:#2471A3 ;
+		}
+</style>
+</head>
+<body><div class="wrapper">
+<div class="wrapper">
+        <nav class="navbar navbar-default navbar-fixed navbar-light white bootsnav on no-full">
+        <div class="container">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false"><i class="fa fa-bars"></i></button>
+            <div class="navbar-header">
+			<a class="navbar-brand" href="https://outplacementheros.org" title="OutPlacement Heroes">
+                <img src="https://outplacementheros.org/assets/img/logo.png" class="logo logo-scrolled" alt="OutPlacement Heroes"></a></div>
+            <div class="navbar-collapse collapse" id="navbar-menu" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+					<li><a class="nav-link active" href="/">Home</a></li>
+					<li><a href="javascript:void(0)">Refer a Friend</a></li>
+					<li><a href="javascript:void(0)">About Us</a></li>
+					<li><a href="javascript:void(0)">Volunteer Speaks</a></li>
+					<li><a href="javascript:void(0)">FAQ's</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>        <div class="clearfix"></div>
+	
+    <!-- Title Header Start --> 
+	<div class="container-fluid" style="color:white;background-color:#121212;padding:12% 3% 10% 3%;margin-bottom:5%;">
+		<img src="images/text.jpg" id="text-image" style="width:50%;height:auto;">
+		<div id="text-float">
+		<div style="font-size:1.5em;font-weight:bold;">You search on popular websites</div>
+		<div style="font-size:1em;">we will find hidden jobs for you</div>
+		<div style="font-size:1.5em;font-weight:bold;margin-top:5%;">You focus on exploring your network</div> 
+		<div style="font-size:1em;">Let us connect you with unconnected</div>
+		<div style="font-size:1.5em;font-weight:bold;margin-top:5%;">You practice interview skills</div>
+		<div style="font-size:1em;">Let us get you Interview coaching<br></div>
+		<div id="text2" style="font-size:1em;margin:5% 50% 0 0;">Job Search Assistance, Networking with employers,
+		Interview preparation Are powerful tools alone, but
+		unstoppable when used together</div></div>
+		
+		<a href="https://outplacementheros.org/jobseeker"><button class="seeker">Job Seeker Registration</button></a>
+	</div>
+		<!-- Title Header End -->
+		<!-- Slideshow-->
+		<center>
+			<h1>Unique Powerful tools to boost your Job Search</h1>
+			<hr style="width:10%;height:1%;background-color:#3498DB;border-radius:2vh;margin-top:2%;">
+		</center>
+		<div class="row" style="margin:1% auto 0 auto;">
+			<div class="col-sm-4" style="margin-bottom:3%;padding:3%;">
+				<div style="width:100%;height:auto;border:#3498DB solid 2px;border-bottom:none;
+				background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/ss1.jpg');padding:50% 5% 5% 5%;background-size:100% 100%;">
+				<h3 style="text-align:center;color:white;">Speed Networking</h3></div>
+				<div style="background-color:white;padding:1% 2%;border-radius:0 0 2vh 2vh;border:#3498DB solid 2px;border-top:none;">
+					
+					<center><hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;"></center>
+					<p>LinkedIn Is A Platform Built For Professionals Who Are Either Great With Content Or Networking. We Network You With Professionals Who Know What You Are Looking For So That You Get Maximum Out Of Networking.
+
+</p>
+					<a href="readmore.html"><button type="button" class="readmore">Read More</button></a>
+				</div>
+			</div>
+			<div class="col-sm-4" style="margin-bottom:3%;padding:3%;">
+				<div style="width:100%;height:auto;border:#3498DB solid 2px;border-bottom:none;
+				background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('images/hiddenjob.jpg');padding:50% 5% 5% 5%;
+				background-size:100% 100%;">
+				<h3 style="text-align:center;color:white;">Hidden Jobs</h3></div>
+				<div style="background-color:white;padding:1% 2%;border-radius:0 0 2vh 2vh;border:#3498DB solid 2px;border-top:none;">
+					
+					<center><hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;"></center>
+					<p>Applying on jobs is not enough you need to ensure your resume is viewed by Recruiters. This needs networking with HR, connecting employees of companies, 
+					write engaging posts & Increasing reach.<br>OutplacementHeros gets you that superpower in no time.</p>
+					<a href="readmore.html"><button type="button" class="readmore">Read More</button></a>
+				</div>
+			</div>
+			<div class="col-sm-4" style="margin-bottom:3%;padding:3%;">
+				<div style="width:100%;height:auto;border:#3498DB solid 2px;border-bottom:none;
+				background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/interview.jpg');padding:50% 5% 5% 5%;
+				background-size:100% 100%;">
+				<h3 style="text-align:center;color:white;">Interview Preparation</h3></div>
+				<div style="background-color:white;padding:1% 2%;border-radius:0 0 2vh 2vh;border:#3498DB solid 2px;border-top:none;">
+					<center><hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;"></center>
+					<p>Applying on jobs is not enough you need to ensure your resume is viewed by Recruiters. This needs networking with HR, connecting employees of companies, 
+					write engaging posts & Increasing reach.<br>OutplacementHeros gets you that superpower in no time.</p>
+					<a href="readmore.html"><button type="button" class="readmore">Read More</button></a>
+				</div>
+			</div>
+		</div>
+				
+		
+		
+		<!-- form section-->
+		<div class="container" style="background-color:white;border-radius:3vh;padding:2%;margin:auto;width:90%;">
+		<center>
+			<h1>Recruiters! Now Hire Immediate Joiners for Free</h1>
+			<hr style="width:10%;height:1%;background-color:#3498DB;border-radius:2vh;margin-top:2%;">
+		</center>
+		<div class="row" style="display:flex;flex-wrap:wrap;"> 	
+			<div class="col-sm-6" style="padding:2%;">
+				<div style="font-size:2em;font-weight:bold;">Step 1</div>
+				<hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				<div style="font-size:1.5em;margin:5% 0 5% 3%;">Register your details here.</div>
+				<div style="font-size:2em;font-weight:bold;">Step 2</div>
+				<hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				<div style="font-size:1.5em;margin:5% 0 5% 3%;">We will do due diligence for data privacy.</div>
+				<div style="font-size:2em;font-weight:bold;">Step 3</div>
+				<hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				<div style="font-size:1.5em;margin:5% 0 0 3%;">You receive access details on your mail / Regret email.</div>
+			</div>
+			<div class="col-sm-6" style="display:flex;flex-wrap:wrap;align-content:center;margin:auto;">
+			<!--<form action="">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" placeholder="Enter Name" id="name" required>
+			  </div>
+			  <div class="form-group">
+				<label for="company_name">Company Name:</label>
+				<input type="text" class="form-control" placeholder="Enter Company Name" id="company_name" required>
+			  </div>
+			  <div class="form-group">
+				<label for="email">Official Email ID:</label>
+				<input type="email" class="form-control" placeholder="Enter Official Email ID" id="email" required>
+			  </div>
+			  <div class="form-group">
+				<label for="mobile">Mobile Number:</label>
+				<input type="tel" class="form-control" placeholder="Enter Mobile Number" pattern="[0-9]+" id="mobile" required>
+			  </div>
+			  <div class="form-group">
+				<label for="linkedln">Linkedln ID:</label>
+				<input type="text" class="form-control" placeholder="Enter Linkedin ID" id="linkedln" required>
+			  </div>
+			  <div class="form-group">
+				<label for="count">How many immediate joiners you are currently hiring:</label>
+				<input type="text" class="form-control" placeholder="Enter in words or in number" id="count" required>
+			  </div>
+			  <div class="form-group">
+				<label for="org_type">Organisation Type:</label>
+				<select class="form-control" id="org_type">
+					<option>-select-</option>
+					<option>Direct Employer</option>
+					<option>Recruitment Firm</option>
+				</select>
+			  </div>-->
+			  <button class="btn btn-login" type="submit">Register</button>
+			<!--</form>-->
+		  </div>
+		</div>
+		</div>
+		<center>
+			<h1>Volunteer With Us</h1>
+			<hr style="width:10%;height:1%;background-color:#3498DB;border-radius:2vh;margin-top:2%;">
+		</center>
+		<div class="row" style="display:flex;flex-wrap: wrap;">
+		  <div class="col-sm-6" style="padding:4% 4%;">
+			  <div style="background-color:white;border-radius:3vh;padding:10% 4% 10% 5%;">
+				  <div style="font-size:2em;font-weight:bold;">Step 1</div>
+				  <hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				  <div style="font-size:1.5em;margin:5% 0 5% 3%;">Register your details here</div>
+				  <div style="font-size:2em;font-weight:bold;">Step 2</div>
+				  <hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				  <div style="font-size:1.5em;margin:5% 0 5% 3%;">We will do due diligence for data privacy</div>
+				  <div style="font-size:2em;font-weight:bold;">Step 3</div>
+				  <hr style="width:70px;height:0.7%;background-color:#3498DB;border-radius:3vh;">
+				  <div style="font-size:1.5em;margin:5% 0 5% 3%;">You receive access details on your mail / Regret email.</div>
+				</div>
+		  </div>
+		  <div class="col-sm-6" style="display:flex;flex-wrap:wrap;align-content:center;margin:auto;">
+			<!--<form action="">
+			<div class="form-group">
+				<label>Name:</label>
+				<input type="text" class="form-control" placeholder="Your Name" required>
+			  </div>
+			  <div class="form-group">
+				<label>Email:</label>
+				<input type="email" class="form-control" placeholder="Email" required>
+			  </div>
+			  <div class="form-group">
+				<label>Linkedln ID:</label>
+				<input type="text" class="form-control" placeholder="Linkedin ID">
+			  </div>-->
+			  <button class="btn btn-login" type="submit">Submit</button>
+			<!--</form>-->
+		  </div>
+		</div>
+		<!-- video section-->
+		<center>
+			<h1>Maintain compassion while you downsize!</h1>
+			<hr style="width:10%;height:1%;background-color:#3498DB;border-radius:2vh;margin-top:2%;">
+		</center>
+		<div class="row" style="margin:auto;">
+			<div class="col-md-6" style="padding:1% 5%;">
+				<div style="background-color:white;border-radius:3vh;padding:33% 0;">
+				</div>
+			</div>
+			<div class="col-md-6" style="padding:4%;">
+				<video id="player" poster="https://outplacementheros.org/HomeImages/3.jpeg" controls="">
+				  <source src="https://outplacementheros.org/HomeImages/Movie.mp4" type="video/mp4">
+				</video>
+			</div>
+    <!--Footer Section-->                                      
+    <div class="clearfix"></div>
+    <footer class="footer" style="margin-top:3%;">
+        <div class="row lg-menu">
+            <div class="container">
+                <div class="col-md-4 col-sm-4"><img src="https://outplacementheros.org/assets/img/footer-logo.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-8 co-sm-8 pull-right">
+                    <ul>
+                        <li><a href="javascript:void(0)" title="">Home</a></li>
+                        <li><a href="javascript:void(0)" title="">Blog</a></li>
+                        <li><a href="faq.html" title="">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row no-padding">
+            <div class="container">
+                <div class="col-md-3">
+                    <div class="footer-widget">
+                        <h3 class="widgettitle widget-title">Testimonial</h3>
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<div class="item active">
+								<img src="images/bg.jpg" style="width:100%;">
+							</div>
+							<div class="item">
+								<img src="images/bg.jpg" style="width:100%;">
+							</div>
+							<div class="item">
+								<img src="images/bg.jpg" style="width:100%;">
+							</div>
+						</div>
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+						</a>
+						</div>
+					</div>
+                </div>
+				<div class="col-md-3">
+                    <div class="footer-widget">
+                        <h3 class="widgettitle widget-title">Register</h3>
+						<div class="textwidget">
+                            <p><a href="#">Link 1</a></p>
+                            <p><a href="#">Link 2</a></p>
+                            <p><a href="#">Link 3</a></p>
+						</div>
+					</div>
+                </div>
+				<div class="col-md-3">
+                    <div class="footer-widget">
+                        <h3 class="widgettitle widget-title">Corporate Office</h3>
+
+                        <div class="textwidget">
+                            <p>332, 3rd floor, Centrum Plaza</p>
+
+                            <p>Golf Course Road, Sector 53<br>Gurgaon 122003</p>
+
+                            <p>Email: hello@outplacementheros.org</p>
+
+                            
+                            <ul class="footer-social"> 
+                                <li><a href="https://www.facebook.com/outplacementheros/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://instagram.com/outplacementheros?igshid=ppg4sguw3ieg"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/outplacementheros"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-md-3" style="padding:8.8% 0;">
+                    <div class="footer-widget" style="text-align:center;">
+                        <button type="submit" class="btn subscribe">Subscribe Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="container">
+                <p>© 2020 <a href="https://outplacementheros.org/">OutPlacement Heros</a></p>
+            </div>
+        </div>
+		
+    </footer>    <div class="clearfix"></div>
+    <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="tab" role="tabpanel">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#login" role="tab" data-toggle="tab">Sign
+                                In</a></li>
+                        </ul>
+                        <div class="tab-content" id="myModalLabel2">
+                            <div role="tabpanel" class="tab-pane fade in active" id="login">
+                                <img src="assets/img/logo.png" class="img-responsive" alt="">
+
+                                <div class="subscribe wow fadeInUp">
+                                    <form class="form-inline" method="post" action="https://outplacementheros.org/login">
+                                        <input type="hidden" name="_token" value="q5TEnoTmqjIuksThzaU5J4PRGMS8IWGBwe8dctu0">                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <input id="email" type="email" class="form-control " name="email" value="" required="" autocomplete="email" placeholder="Your Email" autofocus="">
+                                                                                                <input id="password" type="password" class="form-control " name="password" required="" autocomplete="current-password" placeholder="Password">
+                                                                                                <div class="center">
+                                                    <div class="form-group row">
+                                                        <div>
+                                                            <div class="form-check">
+                                                                <input class="form-check-input" checked="" type="checkbox" name="remember" id="remember">
+                                                                <label class="form-check-label" for="remember">
+                                                                        Remember Me
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit" id="login-btn" class="submit-btn"> Login</button><br>
+                                                        <a class="btn btn-link" href="https://outplacementheros.org/forget_password">
+                                                            Forgot Your Password?
+                                                        </a> 
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <!-- Scripts==================================================-->
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/viewportchecker.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/bootsnav.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/select2.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/wysihtml5-0.3.0.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/bootstrap-wysihtml5.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/datedropper.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/dropzone.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/loader.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/slick.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/gmap3.min.js"></script>
+    <script type="text/javascript" src="https://outplacementheros.org/assets/plugins/js/jquery.easy-autocomplete.min.js"></script>
+    <script src="https://outplacementheros.org/assets/js/custom.js"></script>
+    <script>    
+        function NumbersOnly(evt,obj) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        } else {
+            if(charCode != 32)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+    function isDecimal(evt,obj) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode != 46 && charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        } else {
+            if(charCode != 32)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+        
+    
+    function skip_space(evnt,obj) {
+        var charCode = (evnt.which) ? evnt.which : evnt.keyCode;
+        if (charCode == 32) {
+            return false;
+        }
+    }
+    </script>
+    <script src="https://outplacementheros.org/assets/plugins/js/block_ui.js"></script>    
+    <script src="https://outplacementheros.org/assets/plugins/js/bootstrap-notify.min.js"></script>
+    <script src="https://outplacementheros.org/assets/plugins/js/jquery.validate.js"></script>
+    <script src="https://outplacementheros.org/assets/plugins/js/additional-methods.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    
+
+<script type="text/javascript">           
+$("#job_seeker_form").validate({
+    rules: {
+        type: "required",
+        js_name: "required",
+        js_mobile: {
+            required: true,
+            minlength: 10
+        },
+        js_password: {
+            required: true,
+            minlength: 5
+        },
+        js_confirm_password: {
+            required: true,
+            minlength: 5,
+            equalTo: "#js_password"
+        },
+        js_email: {
+            required: true,
+            email: true
+        },
+        js_tnc: "required",
+        resume: {
+            required: true,
+            extension: "docx|doc|pdf"
+        },
+    },
+    messages: {
+        type: "Please select your choice",
+        js_name: "Please enter your name",
+        js_mobile: {
+            required: "Please enter your mobile number",
+            minlength: "Mobile number must consist of at least 10 digits"
+        },
+        js_password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long"
+        },
+        js_confirm_password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long",
+            equalTo: "Please enter the same password as above"
+        },
+        js_email: "Please enter a valid email address",
+        js_tnc: "Please accept our T&C",
+        resume: {
+            required: "Please upload your resume",
+            extension: "Only PDF, DOCX and DOC extensions are allowed"
+
+        },
+    }
+});
+</script>
+<script type="text/javascript">           
+$("#company_form").validate({
+    rules: {
+        name: "required",
+        company_name: {
+            required: true,
+            minlength: 5
+        },
+        password: {
+            required: true,
+            minlength: 5
+        },
+        confirm_password: {
+            required: true,
+            minlength: 5,
+            equalTo: "#password"
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        tnc: "required"
+    },
+    messages: {
+        name: "Please enter your name",
+        company_name: {
+            required: "Please enter your company name",
+            minlength: "Your company name must consist of at least 5 characters"
+        },
+        password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long"
+        },
+        confirm_password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long",
+            equalTo: "Please enter the same password as above"
+        },
+        email: "Please enter a valid email address",
+        tnc: "Please accept our policy",
+    }
+});
+</script>
+<script>
+function check_email()
+{
+    var email = $("#js_email").val();
+    $("#span_js_email").remove();
+    if(email!="")
+    {
+        $("#job_seeker_form").validate();
+        $.blockUI({ message: "<i class='fa fa-2x fa-spinner fa-spin' aria-hidden='true' ></i> &nbsp; <h6>Loading... a moment please.</h6>" });
+        $.ajax({
+            url: "https://outplacementheros.org/check_email",
+            type: 'GET',
+            data: {email:email},            
+            headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+            success:function(response){
+                if(response==0)
+                {
+                    $("#js_email").val('');
+                   $('#js_email').after('<span class="err" id="span_js_email">The email '+email+' is already taken.</span>'); 
+                }
+                $.unblockUI();
+            }
+        });
+    }
+}
+</script>
+<script>
+function check_mobile()
+{
+    var mobile = $("#js_mobile").val();
+    mobile = mobile.replace(/\s/g, '');
+    $("#span_js_mobile").remove();
+    if(mobile.trim()!="" && mobile.trim().length==10)
+    {
+        const res = /^(\+\d{1,3}[- ]?)?\d{10}$/;
+        if(res.test(mobile))
+        {
+            $.blockUI({ message: "<i class='fa fa-2x fa-spinner fa-spin' aria-hidden='true' ></i> &nbsp; <h6>Loading... a moment please.</h6>" });
+            $.ajax({
+                url: "https://outplacementheros.org/check_mobile",
+                type: 'GET',
+                data: {mobile:mobile},            
+                headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')},
+                success:function(response){
+                    if(response==0)
+                    {
+                        $("#js_mobile").val('');
+                       $('#js_mobile').after('<span class="err" id="span_js_mobile">The number '+mobile+' is already taken.</span>'); 
+                    }
+                    $.unblockUI();
+                }
+            });
+        }
+        else
+        {
+            $("#js_mobile").val('');
+            $('#js_mobile').after('<span class="err" id="span_js_mobile">Please enter the correct mobile number.</span>'); 
+        }
+    }
+    else
+    {
+        $("#js_mobile").val('');
+        $('#js_mobile').after('<span class="err" id="span_js_mobile">Please enter the correct mobile number.</span>'); 
+    }
+}
+</script>
+<script type="text/javascript">
+function get_other(vals)
+{
+    if(vals!="")
+    {
+        if(vals=="city")
+        {
+            var location =  $("#location").val();
+            $("#other_city").removeAttr("required");
+            $("#other_city_div").css("display", "none");
+            if(location==0)
+            {
+                $("#other_city_div").css("display", "block");
+                $("#other_city").attr("required", "required");
+            }
+        }
+        if(vals=="industry")
+        {
+            var industry =  $("#industry").val();
+            $("#other_industry").removeAttr("required");
+            $("#other_indstry_div").css("display", "none");
+            if(industry==0)
+            {
+                $("#other_indstry_div").css("display", "block");
+                $("#other_industry").attr("required", "required");
+            }
+        }
+    }
+}
+</script>
+<script>
+    function get_reasons()
+    {
+        var notice_period =  $("#notice_period").val();
+        $("#reason").removeAttr("required");
+        $("#div_reason").css("display", "none");
+        if(notice_period!="")
+        {
+            $("#div_reason").css("display", "block");
+            $("#reason").attr("required", "required");
+        }
+    }
+</script>
+     <script>
+        $('#flash-overlay-modal').modal(); 
+    </script>
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/5f18f8dc7258dc118beec2ff/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+     </div>
+
+
+</div></body></html>
